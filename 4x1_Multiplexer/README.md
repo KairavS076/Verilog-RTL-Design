@@ -5,9 +5,9 @@ Design a 4-to-1 multiplexer: 4 data inputs, 2 select lines, 1 output.
 The output equals the input selected by the 2-bit select line (00, 01, 10, 11).
 
 ## Design approach
-Implemented using structural modeling — built from smaller 2x1 multiplexer
-instances rather than a single behavioral case statement, to practice
-hierarchical circuit design.
+Implemented using gate-level modeling — the mux logic is built directly from
+basic logic gates (AND, OR, NOT) based on the Boolean expression derived from
+the truth table, rather than using behavioral constructs like case/if statements.
 
 ## Files in this folder
 - Verilog source file — the RTL design

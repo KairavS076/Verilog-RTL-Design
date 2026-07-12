@@ -7,6 +7,7 @@ Each project folder includes the design source, testbench, schematic, and simula
 
 - **2x1_Multiplexer** — 2-to-1 multiplexer, gate-level modeling
 - **4x1_Multiplexer** — 4-to-1 multiplexer, gate-level modeling
+- **8x1_Multiplexer** — 8-to-1 multiplexer, gate-level modeling
 
 ## Tools used
 

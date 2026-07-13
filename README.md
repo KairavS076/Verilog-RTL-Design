@@ -12,6 +12,7 @@ All projects below are implemented using gate-level modeling, inside the `Gate_L
 - **Gate_Level_Modeling/8x1_Multiplexer** — 8-to-1 multiplexer
 - **Gate_Level_Modeling/1_Bit_Comparator** — 1-bit magnitude comparator
 - **Gate_Level_Modeling/2_Bit_Comparator** — 2-bit magnitude comparator
+- **Gate_Level_Modeling/2_Bit_Binary_to_Gray** — 2-bit binary to Gray code converter
 
 ## Tools used
 

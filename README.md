@@ -13,6 +13,8 @@ All projects below are implemented using gate-level modeling, inside the `Gate_L
 - **Gate_Level_Modeling/1_Bit_Comparator** — 1-bit magnitude comparator
 - **Gate_Level_Modeling/2_Bit_Comparator** — 2-bit magnitude comparator
 - **Gate_Level_Modeling/2_Bit_Binary_to_Gray** — 2-bit binary to Gray code converter
+- **Gate_Level_Modeling/Half_Adder** — half adder
+- **Gate_Level_Modeling/3_Bit_Binary_to_Gray** — 3-bit binary to Gray code converter
 
 ## Tools used
 

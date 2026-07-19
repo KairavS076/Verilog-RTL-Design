@@ -1,30 +1,42 @@
 # Verilog-RTL-Design
 
-RTL design projects in Verilog HDL, simulated and verified in Xilinx Vivado / Icarus Verilog.
-Each project folder includes the design source, testbench, schematic, and simulation waveform.
+This repository documents my hands-on learning in digital circuit design using Verilog HDL,
+simulated and verified using Xilinx Vivado and Icarus Verilog.
 
-## Projects
+Rather than just writing code that works, the goal here is to understand *why* a design
+works — which is why every project includes not just the source code, but the testbench
+used to verify it, the synthesized schematic, and the simulation waveform showing the
+verified behavior.
 
-All projects below are implemented using gate-level modeling, inside the `Gate_Level_Modeling` folder:
+## Structure
 
-- **Gate_Level_Modeling/2x1_Multiplexer** — 2-to-1 multiplexer
-- **Gate_Level_Modeling/4x1_Multiplexer** — 4-to-1 multiplexer
-- **Gate_Level_Modeling/8x1_Multiplexer** — 8-to-1 multiplexer
-- **Gate_Level_Modeling/1_Bit_Comparator** — 1-bit magnitude comparator
-- **Gate_Level_Modeling/2_Bit_Comparator** — 2-bit magnitude comparator
-- **Gate_Level_Modeling/2_Bit_Binary_to_Gray** — 2-bit binary to Gray code converter
-- **Gate_Level_Modeling/Half_Adder** — half adder
-- **Gate_Level_Modeling/3_Bit_Binary_to_Gray** — 3-bit binary to Gray code converter
+Projects are organized by modeling style, since each style represents a different level
+of abstraction in describing hardware — a distinction that matters in real RTL design work:
+
+- **Gate_Level_Modeling/** — circuits built directly from basic logic gates (AND, OR, NOT,
+  NAND, XOR), based on Boolean expressions derived from truth tables. This is the lowest
+  level of abstraction, closest to the actual hardware.
+- **Dataflow_Modelling/** — circuits described using continuous assignment (`assign`)
+  statements and Verilog operators, representing behavior at a higher level of abstraction.
+
+Each folder contains its own README listing the projects inside it, and every individual
+project folder has its own README explaining the problem, the design approach taken, and
+the verified simulation result.
 
 ## Tools used
 
-Xilinx Vivado (schematic + simulation), Icarus Verilog (open-source simulation)
+- **Xilinx Vivado** — RTL design, synthesis, schematic generation, and simulation
+- **Icarus Verilog** — open-source simulation and verification
 
-## Folder contents
-
-Each project folder contains:
+## What each project folder contains
 
 - Verilog source file — the RTL design
-- Testbench file — verification
-- Schematic image
-- Waveform image
+- Testbench file — verifies correct behavior across input combinations
+- Schematic image — the synthesized circuit
+- Waveform image — the simulation output confirming correctness
+
+## About this repository
+
+This is an ongoing collection, updated as I work through new circuits and design
+techniques while studying digital electronics and RTL design. New modeling styles
+(behavioral, structural) and projects are added as I progress.

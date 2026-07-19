@@ -18,6 +18,7 @@ tables, rather than behavioral or dataflow constructs.
 - **Half_Substractor** — half subtractor
 - **Full_Substractor** — full subtractor
 - **OR_Gate_Using_Nand** — OR gate implemented using only NAND gates
+- **AND_Gate_Using_Nand** — AND gate implemented using only NAND gates
 - **4_Bit_Ripple_Carry_Adder** — 4-bit ripple carry adder, built from Full Adder modules
 
 Each project folder contains its own README with the specific problem, design

@@ -9,6 +9,7 @@ instantiating individual logic gates or using behavioral constructs.
 - **2x1_Multiplexer** — 2-to-1 multiplexer
 - **4x1_Multiplexer** — 4-to-1 multiplexer
 - **8x1_Multiplexer** — 8-to-1 multiplexer
+- **1_Bit_Comparator** — 1-bit magnitude comparator
 
 Each project folder contains its own README with the specific problem, design
 approach, and result, along with the Verilog source, testbench, schematic image,

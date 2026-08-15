@@ -14,10 +14,12 @@ Projects are organized by modeling style, since each style represents a differen
 of abstraction in describing hardware — a distinction that matters in real RTL design work:
 
 - **Gate_Level_Modeling/** — circuits built directly from basic logic gates (AND, OR, NOT,
-  NAND, XOR), based on Boolean expressions derived from truth tables. This is the lowest
+  NAND, NOR, XOR), based on Boolean expressions derived from truth tables. This is the lowest
   level of abstraction, closest to the actual hardware.
 - **Dataflow_Modelling/** — circuits described using continuous assignment (`assign`)
-  statements and Verilog operators, representing behavior at a higher level of abstraction.
+  statements and Verilog operators.
+- **Behavioral_Modelling/** — circuits described using procedural `always` blocks,
+  representing behavior at a higher level of abstraction.
 
 Each folder contains its own README listing the projects inside it, and every individual
 project folder has its own README explaining the problem, the design approach taken, and
@@ -38,5 +40,4 @@ the verified simulation result.
 ## About this repository
 
 This is an ongoing collection, updated as I work through new circuits and design
-techniques while studying digital electronics and RTL design. New modeling styles
-(behavioral, structural) and projects are added as I progress.
+techniques while studying digital electronics and RTL design.

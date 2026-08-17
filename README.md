@@ -13,13 +13,15 @@ verified behavior.
 Projects are organized by modeling style, since each style represents a different level
 of abstraction in describing hardware — a distinction that matters in real RTL design work:
 
-- **Gate_Level_Modeling/** — circuits built directly from basic logic gates (AND, OR, NOT,
-  NAND, NOR, XOR), based on Boolean expressions derived from truth tables. This is the lowest
-  level of abstraction, closest to the actual hardware.
+- **Gate_Level_Modeling/** — circuits built directly from basic logic gates and gate
+  primitives (AND, OR, NOT, NAND, NOR, XOR, bufif0/bufif1), based on Boolean expressions
+  or specified gate-level structures. This is the lowest level of abstraction, closest
+  to the actual hardware.
 - **Dataflow_Modelling/** — circuits described using continuous assignment (`assign`)
   statements and Verilog operators.
-- **Behavioral_Modelling/** — circuits described using procedural `always` blocks,
-  representing behavior at a higher level of abstraction.
+- **Behavioral_Modelling/** — circuits described using procedural `always` blocks with
+  constructs like `if-else` and `case`, representing behavior at a higher level of
+  abstraction.
 
 Each folder contains its own README listing the projects inside it, and every individual
 project folder has its own README explaining the problem, the design approach taken, and

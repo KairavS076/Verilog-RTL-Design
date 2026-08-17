@@ -1,8 +1,9 @@
 # Gate Level Modeling
 
 Projects implemented using gate-level modeling — built directly from basic logic
-gates (AND, OR, NOT, NAND, NOR, XOR) based on Boolean expressions derived from
-truth tables, rather than behavioral or dataflow constructs.
+gates and Verilog gate primitives (AND, OR, NOT, NAND, NOR, XOR, bufif0, bufif1)
+based on Boolean expressions or specified gate-level structures, rather than
+behavioral or dataflow constructs.
 
 ## Projects
 
@@ -22,6 +23,7 @@ truth tables, rather than behavioral or dataflow constructs.
 - **NOT_Gate_Using_Nand** — NOT gate implemented using only a NAND gate
 - **XOR_Gate_Using_Basic_Gates** — XOR gate implemented using AND, OR, and NOT gates
 - **RS_Latch** — RS latch built from cross-coupled NOR gates, with gate delay
+- **2x1_Mux_Using_Bufif** — 2-to-1 multiplexer using bufif0/bufif1 tristate primitives, with timing delays
 - **4_Bit_Ripple_Carry_Adder** — 4-bit ripple carry adder, built from Full Adder modules
 
 Each project folder contains its own README with the specific problem, design

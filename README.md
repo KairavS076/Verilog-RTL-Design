@@ -22,6 +22,8 @@ of abstraction in describing hardware — a distinction that matters in real RTL
 - **Behavioral_Modelling/** — circuits described using procedural `always` blocks with
   constructs like `if-else` and `case`, representing behavior at a higher level of
   abstraction.
+- **Mini_Project/** — small complete applications (e.g., FSM-based designs) built by
+  combining these modeling techniques into a working system.
 
 Each folder contains its own README listing the projects inside it, and every individual
 project folder has its own README explaining the problem, the design approach taken, and
